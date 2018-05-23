@@ -4,6 +4,7 @@
 expenses.
 
 ## Frameworks
+
 * **Materializecss** for material design implementation [Materializecss](https://materializecss.com/)
 
 * **LAMP** scotch/box LAMP vagrant box is used for development [scotch/box](https://app.vagrantup.com/scotch/boxes/box)
@@ -23,6 +24,10 @@ The following **features** will be implemented:
 
 
 ## Video Walktrhough
+
+The last month and grand Total tabs are not shown on Desktop browser. Resize browser window to display the missing tabs. Need to fix that bug.
+
+On mobile browser works perfect.
 
 <img src='https://i.imgur.com/iAz5uEe.gif' title='video walkthrough' width='' alt='Video Walkthrough'/>
 
