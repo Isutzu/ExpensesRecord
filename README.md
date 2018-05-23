@@ -23,7 +23,8 @@ The following **features** will be implemented:
 - [ ] Fix php errors.
 
 ## Video Walktrhough
-<img src='https://imgur.com/iAz5uEe' title='video walkthrough' width='' alt='Video Walkthrough'/>
+
+<img src='https://i.imgur.com/iAz5uEe.gif' title='video walkthrough' width='' alt='Video Walkthrough'/>
 
 ## Notes
 
