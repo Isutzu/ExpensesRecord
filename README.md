@@ -6,7 +6,7 @@ expenses.
 ## Frameworks
 * **Materializecss** for material design implementation [Materializecss](https://materializecss.com/)
 
-* **LAMP** scotch/box LAMP vagrant box is used for convenience. [scotch/box](https://app.vagrantup.com/scotch/boxes/box)
+* **LAMP** scotch/box LAMP vagrant box is used for development [scotch/box](https://app.vagrantup.com/scotch/boxes/box)
 
 
 ## Description
@@ -22,6 +22,8 @@ The following **features** will be implemented:
 - [ ] Improve user interface on edit mode.
 - [ ] Fix php errors.
 
+## Video Walktrhough
+<img src='https://imgur.com/iAz5uEe' title='video walkthrough' width='' alt='Video Walkthrough'/>
 
 ## Notes
 
