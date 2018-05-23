@@ -20,7 +20,7 @@ expenses.
 The following **features** will be implemented:
 
 - [ ] Improve user interface on edit mode.
-- [ ] Fix php errors.
+
 
 ## Video Walktrhough
 
