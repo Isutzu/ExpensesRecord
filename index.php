@@ -161,7 +161,7 @@ foreach ($months as $value)
      <!--Import Google Icon Font-->
      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
      <!--Import materialize.css-->
-     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+     <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
 
      <!--Let browser know website is optimized for mobile-->
      <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=0" />
@@ -279,7 +279,8 @@ foreach ($months as $value)
         </ul>
       </div> -->
 
-      <div id='sumatoria'style="position:fixed;right:2em;top:5em;color:white; display:none;" class="chip pink lighten-3">
+      <div id='sumatoria'style="position:fixed;right:2em;top:5em;color:white; display:none;" 
+            class="chip pink lighten-3 ">
                $0.00
       </div>
     <?php
