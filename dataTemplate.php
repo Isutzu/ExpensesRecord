@@ -1,7 +1,7 @@
 <?php
 
 $year = $_GET['year'];
-
+$divId = "";
 $months = array(
   'January',
   'Febraury',

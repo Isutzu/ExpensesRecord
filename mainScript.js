@@ -166,7 +166,7 @@ $("document").ready(function(){
           console.log(jsonData);
 
           $.ajax({
-                url:"http://bellarougenailspa.com/bellawebapp/saveData.php",
+                url:"saveData.php",
                 type:"POST",
                 dataType:'json',
                 data : {data:jsonData} ,
@@ -446,5 +446,5 @@ $("document").ready(function(){
     }
 
 
-
+//
 });

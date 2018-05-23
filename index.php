@@ -19,7 +19,9 @@ $months = array(
 
 $year = date('Y');
 $dir_name =  'data' . '/' . $year . '/';
-
+$options_year="";
+$tabs="";
+$divId="";
 $current_year_dir = glob($dir_name);
 
 
@@ -36,6 +38,7 @@ $current_year_dir = glob($dir_name);
    foreach ($directories as $value) {
      array_push($options,str_replace('data/','',$value));
    }
+
    foreach ($options as $value) {
      $options_year .= "<li id='li_$value' class='user-year'>  <a href='#!'> <i class='material-icons'>assessment </i> <span>$value </span></a></li>";
    }
@@ -326,7 +329,7 @@ foreach ($months as $value)
     </form>
   </div>
 
-  <script src='test.js?v=123456'>
+  <script src='mainScript.js'>
 
    </script>
 
