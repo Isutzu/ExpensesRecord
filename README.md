@@ -1,10 +1,12 @@
-# App Name - *BellaApp*
+# App Name - *ExpensesRecord*
 
-**BellaApp** is a web application that keeps year and monthly records of
+**ExpensesRecord** is a web application that keeps year and monthly records of
 expenses.
 
 ## Frameworks
-* **Materializecss** for material design implementation.
+* **Materializecss** for material design implementation [Materializecss](https://materializecss.com/)
+
+* **LAMP** scotch/box LAMP vagrant box is used for convenience. [scotch/box](https://app.vagrantup.com/scotch/boxes/box)
 
 
 ## Description
@@ -17,8 +19,9 @@ expenses.
 
 The following **features** will be implemented:
 
-- [ ] Login page.
-- [ ] add https to website.
+- [ ] Improve user interface on edit mode.
+- [ ] Fix php errors.
+
 
 ## Notes
 
