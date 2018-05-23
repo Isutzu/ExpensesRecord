@@ -26,6 +26,9 @@ The following **features** will be implemented:
 
 <img src='https://i.imgur.com/iAz5uEe.gif' title='video walkthrough' width='' alt='Video Walkthrough'/>
 
+## Live Demo
+
+[https://expenses-record.herokuapp.com/](https://expenses-record.herokuapp.com/)
 ## Notes
 
 - How to break/exit from a each() function in JQuery?
