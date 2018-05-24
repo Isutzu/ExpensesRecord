@@ -21,6 +21,14 @@ expenses.
 The following **features** will be implemented:
 
 - [ ] Improve user interface on edit mode.
+- [ ] PDF printing option.
+
+List od current **issues** :
+
+- Edit is allow when click in the GrandTotal tab.
+This might prompt to confusion because the purpose of grandTotal is 
+just to display total values.
+
 
 
 ## Video Walktrhough
