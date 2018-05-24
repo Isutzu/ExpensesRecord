@@ -180,19 +180,6 @@ foreach ($months as $value)
     </script> -->
 
 
-     <style>
-     .biz-title{
-        font-family: 'Tangerine', serif;
-        font-weight:italic;
-        margin-left:15px;
-        color:#fff;
-        font-size:1.4em;
-      }
-
-    </style>
-
-
-
    </head>
 
    <body>
@@ -254,14 +241,14 @@ foreach ($months as $value)
       </li>
           </ul>
           <a href="#" data-activates="slide-out" class="button-normal">
-              <i style="margin-left:0.5em" class="material-icons">menu</i>
+              <i id ="menu-button" style="margin-left:0.5em" class="material-icons">menu</i>
           </a>
 
       </div>
 
 
       <div class="nav-content pink ligthen-3 ">
-        <ul id="tabs-swipe-demo" class="tabs tabs-transparent">
+        <ul  class="tabs tabs-transparent tabs-fixed-width">
             <?php echo $tabs ?>
         </ul>
       </div>

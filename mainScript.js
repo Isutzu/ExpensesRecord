@@ -106,8 +106,10 @@ $("document").ready(function(){
 
         if(!editMode)
         {
+          $("#menu-button").hide();
           table_name= 'table_'+ month;
           $(this).addClass('edit-mode');
+
           $("#sumatoria").show();
           $("#sumatoria").text(addNumbers().toFixed(2));
           $('#submit-'+ month).show();
@@ -139,6 +141,7 @@ $("document").ready(function(){
         }
         else
         {
+          $("#menu-button").show(); // hamburger menu button
           $(".btn_add").css('display','none');
           $(".btn_remove").css('display','none');
           $("#btn-edit").removeClass('btn-floating pulse');
@@ -146,6 +149,7 @@ $("document").ready(function(){
           $("#sumatoria").hide();
           $(".total-container").show();
           $("#submit-"+month).hide();
+          editMode = false;
           $(this).removeClass('edit-mode');
           columns =$('#' + table_name).find('td');
           columns.each(function(){
@@ -446,5 +450,5 @@ $("document").ready(function(){
     }
 
 
-//
+// 
 });
