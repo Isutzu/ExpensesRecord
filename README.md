@@ -29,10 +29,6 @@ The following **features** will be implemented:
 
 ## Live Demo
 
-The last month and grand Total tabs are not shown on Desktop browser. Resize browser window to display the missing tabs. Need to fix that bug.
-
-On mobile browser works perfect.
-
 [https://expenses-record.herokuapp.com/](https://expenses-record.herokuapp.com/)
 ## Notes
 
