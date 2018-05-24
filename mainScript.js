@@ -1,5 +1,5 @@
 // TODO
-// create regular expression rule to accep only number between 0-9 and 4 digit only
+// create regular expression rule to accept only number between 0-9 and 4 digit only
 // when removing a year load page again or better load the current year
 
 $("document").ready(function(){
@@ -149,7 +149,6 @@ $("document").ready(function(){
           $("#sumatoria").hide();
           $(".total-container").show();
           $("#submit-"+month).hide();
-          editMode = false;
           $(this).removeClass('edit-mode');
           columns =$('#' + table_name).find('td');
           columns.each(function(){
@@ -164,7 +163,7 @@ $("document").ready(function(){
 
         $('#submit-'+month).on('click',function(){
 
-
+          $("#menu-button").show();
           data = getData();
           jsonData = JSON.stringify(data);
           console.log(jsonData);
@@ -370,7 +369,7 @@ $("document").ready(function(){
     });
 
 
-
+    /************ statistics() **************/
     function statistics()
     {
         console.log("inside function statistics");
@@ -418,12 +417,13 @@ $("document").ready(function(){
 
 
     }
-
+    /*********** getChartData() *************/
     function getChartData()
     {
       return chart_data;
     }
 
+    /************ drawChart() ***************/
     function drawChart()
     {
         var chart_data = getChartData(); console.log(chart_data);
