@@ -20,8 +20,8 @@ expenses.
 
 The following **features** will be implemented:
 
-- [ ] Improve user interface on edit mode.
-- [ ] PDF printing option.
+- [x] Improve user interface on edit mode.
+- [x] PDF printing option.
 
 List od current **issues** :
 
