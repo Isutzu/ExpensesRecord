@@ -49,3 +49,7 @@ if (something) return false;
 // return true; or return is equal to continue;
 });
 ```
+
+## Resources
+
+[generate pdf](https://www.sitepoint.com/generate-pdfs-php/)
